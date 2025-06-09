@@ -1,7 +1,17 @@
-h1 {
+@font-face {
+    font-family: "Font1";
+    src: url(./Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+h1,
+h2 {
     text-align: center;
 
 
+}
+
+* {
+    font-family: Font1, sans-serif;
 }
 
 body {
